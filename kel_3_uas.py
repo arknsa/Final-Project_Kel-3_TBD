@@ -32,7 +32,6 @@ from scipy.stats import chi2_contingency
 # Library to Display whole Dataset.
 pd.set_option("display.max.columns",None)
 
-
 # pipeline
 from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
@@ -40,11 +39,6 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler, On
 from sklearn.compose import ColumnTransformer
 
 # Machine learning algorithms
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.svm import SVC
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.naive_bayes import GaussianNB
 from sklearn.model_selection import cross_val_score
 from sklearn.ensemble import RandomForestClassifier,ExtraTreesClassifier
 from sklearn.base import ClassifierMixin
