@@ -53,15 +53,15 @@ from sklearn.model_selection import RandomizedSearchCV,GridSearchCV,RepeatedStra
 from sklearn.metrics import accuracy_score, recall_score, precision_score, f1_score, confusion_matrix, classification_report, roc_auc_score, cohen_kappa_score, balanced_accuracy_score, roc_curve
 
 # Read data train
-df_train = pd.read_csv('train_features.csv')
+df_train = pd.read_csv('/home/hadoop/train_features.csv')
 df_train.head()
 
 # Read data train labels
-df_labels = pd.read_csv('train_labels.csv')
+df_labels = pd.read_csv('/home/hadoop/train_labels.csv')
 df_labels.head()
 
 # Read data test
-df_test = pd.read_csv('test_features.csv')
+df_test = pd.read_csv('/home/hadoop/test_features.csv')
 df_test.head()
 
 # Gabungkan dataframe menggunakan merge
